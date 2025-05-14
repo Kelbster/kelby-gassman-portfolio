@@ -1,34 +1,22 @@
 export default {
   top: [
     {
-      text: 'About',
-      url: '/about/'
+      text: 'Home',
+      url: '/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
+      text: 'Work',
+      url: '/work/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
+      text: 'Info',
+      url: '/info/'
     },
     {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Email',
+      url: 'mailto:kelby.gassman@gmail.com'
     }
   ],
   bottom: [
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
-    },
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
   ]
 };

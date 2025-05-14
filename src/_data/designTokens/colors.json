@@ -4,7 +4,7 @@
   "items": [
     {
       "name": "Gray 100",
-      "value": "#f8f8f8"
+      "value": "#D6D5D4"
     },
     {
       "name": "Gray 200",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Gray 800",
-      "value": "#2e2e2e"
+      "value": "#282826"
     },
     {
       "name": "Gray 900",
@@ -41,6 +41,10 @@
     {
       "name": "Pink",
       "value": "#dd4462"
+    },
+    {
+      "name": "Purple",
+      "value": "#4C197B"
     },
     {
       "name": "Pink Subdued",

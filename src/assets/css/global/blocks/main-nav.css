@@ -1,7 +1,9 @@
 .mainnav {
   --nav-list-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  padding: 16px 0 32px;
   position: var(--nav-position, absolute);
   inset-inline-end: 0;
+  width: 100%;
 }
 
 .mainnav:has([aria-expanded='true']) {
@@ -78,13 +80,6 @@
   line-height: var(--leading-flat);
 }
 
-.mainnav span {
-  font-weight: var(--font-bold);
-  text-transform: uppercase;
-  font-family: var(--font-display);
-  font-size: var(--size-step-min-1);
-}
-
 .mainnav svg {
   block-size: 0.9em;
   color: var(--color-text);
@@ -106,11 +101,14 @@
   color: var(--nav-item-text-color);
   padding: var(--nav-item-padding);
   display: block;
-  border-radius: var(--border-radius-medium);
+  font-family: var(--font-display);
+  font-size: var(--size-step-0);
+  text-transform: uppercase;
   text-decoration-line: underline;
   text-decoration-color: var(--nav-item-decoration-color);
-  text-decoration-thickness: 3px;
-  text-underline-offset: 0.2em;
+  text-decoration-thickness: 8px;
+  text-underline-offset: 10px;
+  transition: text-decoration 200ms;
 }
 
 .mainnav a:where(:hover, :focus) {
@@ -121,12 +119,12 @@
 
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
-  --nav-item-background: var(--color-primary);
+  --nav-item-background: var(--color-gray-100);
   --nav-item-text-color: var(--color-light);
   --nav-item-decoration-color: transparent;
 }
 
-@media screen(navigation) {
+@media screen and (navigation) {
   .mainnav {
     --nav-position: static;
     --nav-button-display: none;
@@ -147,8 +145,8 @@
   .mainnav [aria-current='page'],
   .mainnav [data-state='active'] {
     --nav-item-background: transparent;
-    --nav-item-text-color: var(--color-primary);
-    --nav-item-decoration-color: var(--color-primary);
+    --nav-item-text-color: var(--color-gray-100);
+    --nav-item-decoration-color: var(--color-gray-100);
   }
 }
 
@@ -170,8 +168,8 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 .mainnav ul:first-child [aria-current='page'],
 .mainnav ul:first-child [data-state='active'] {
   --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-primary);
-  --nav-item-decoration-color: var(--color-primary);
+  --nav-item-text-color: var(--color-gray-100);
+  --nav-item-decoration-color: var(--color-gray-100);
 }
 
 /* make menu wrap without drawer */

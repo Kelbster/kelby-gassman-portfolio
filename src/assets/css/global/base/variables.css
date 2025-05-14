@@ -7,7 +7,7 @@
   --transition-timing: ease;
   --wrapper-width: 85rem;
   --tracking: -0.04ch;
-  --tracking-s: -0.075ch;
+  --tracking-s: -0.125ch;
   --tracking-wide: 0.04ch;
   --stroke: 1px solid var(--color-bg-accent);
 
@@ -49,7 +49,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-text: var(--color-gray-100);
-    --color-bg: var(--color-gray-800);
+    --color-text-inverse: var(--color-gray-800);
+    --color-bg: var(--color-purple);
 
     --color-primary: var(--color-pink-subdued);
     --color-secondary: var(--color-blue-subdued);
@@ -62,7 +63,7 @@
 }
 :root[data-theme='dark'] {
   --color-text: var(--color-gray-100);
-  --color-bg: var(--color-gray-800);
+    --color-bg: var(--color-purple);
 
   --color-primary: var(--color-pink-subdued);
   --color-secondary: var(--color-blue-subdued);
