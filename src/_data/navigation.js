@@ -9,12 +9,8 @@ export default {
       url: '/work/'
     },
     {
-      text: 'Info',
-      url: '/info/'
-    },
-    {
-      text: 'Email',
-      url: 'mailto:kelby.gassman@gmail.com'
+      text: 'Contact',
+      url: '/contact/'
     }
   ],
   bottom: [

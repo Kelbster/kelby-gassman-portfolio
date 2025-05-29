@@ -2,25 +2,20 @@
 	Global styles
 
 	Low-specificity, global styles that apply to the whole
-	project: https://cube.fyi/css.html
 */
-
-html {
-  color-scheme: light dark;
-}
 
 body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-base);
-  font-size: var(--size-step-0);
+  font-size: 17px;
   font-weight: var(--font-regular);
   font-size-adjust: from-font;
-  line-height: var(--leading-standard);
+  line-height: 130%;
   color: var(--color-text);
   background-color: var(--color-bg);
   accent-color: var(--color-primary);
-  letter-spacing: var(--tracking);
+  letter-spacing: -.02rem;
 }
 
 main {
@@ -29,7 +24,10 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
   font-weight: var(--font-semibold);
   line-height: var(--leading-fine);

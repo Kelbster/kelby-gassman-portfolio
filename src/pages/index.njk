@@ -5,10 +5,30 @@ description: 'Kelby Gassman&apos;s portfolio site. Designer with over 12 years o
 layout: base
 ---
 
+{% css "local" %}
+  {% include "css/index.css" %}
+{% endcss %}
 <div class="wrapper">
-  <header class="full | section">
+  <header class="full | section index">
     <div class="section__inner flow region">
-      <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
+      <div class="section-hero-card">
+      <div class="hero-card primary">
+        <h2 class="superTitle">Kelby Gassman</h2>
+        <h1 class="title">Home</h1>
+        <p>A creative designer with over 12 years of experience. I'm currently building the Fortnite design system at Epic Games.</p>
+          {% image "/assets/images/portfolio/amazon/amazon-gotham.jpg", "Amazon, Gotham design system", null, "eager" %}
+          {% image "/assets/images/portfolio/homeDepot/the-home-depot.jpg", "The Home Depot design system", null, "eager" %}
+      </div>
+      <div class="hero-card secondary">
+        <div class="blurb-container">
+          <h3 class="description-title">Fortnite</h3>
+          <p class="description">
+            Project: Design System<br />
+            Role: Senior UX Designer<br />
+            Date: Ongoing
+          </p>
+        </div>
+      </div>
     </div>
   </header>
 

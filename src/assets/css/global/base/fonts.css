@@ -1,34 +1,4 @@
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src:
-    local(''),
-    url('/assets/fonts/atkinson/atkinson-hyperlegible-regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src:
-    local(''),
-    url('/assets/fonts/atkinson/atkinson-hyperlegible-italic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Atkinson Hyperlegible';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src:
-    local(''),
-    url('/assets/fonts/atkinson/atkinson-hyperlegible-bold.woff2') format('woff2');
-}
-
-@font-face {
   font-family: 'Saira Condensed';
   font-style: normal;
   font-display: swap;
@@ -36,4 +6,22 @@
   src:
     local(''),
     url('/assets/fonts/saira-condensed/SairaCondensed-SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Saira Condensed Regular';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local(''),
+    url('/assets/fonts/saira-condensed/SairaCondensed-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Shapiro 45';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local(''),
+    url('/assets/fonts/shapiro/Shapiro-45-Welter-Text.woff2') format('woff2');
 }

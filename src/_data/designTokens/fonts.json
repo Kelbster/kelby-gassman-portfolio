@@ -8,9 +8,14 @@
       "value": ["Saira Condensed", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
     },
     {
+      "name": "Display Regular",
+      "description": "Display font stack for headings and large text. Saira Condensed.",
+      "value": ["Saira Condensed Regular", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+    },
+    {
       "name": "Base",
-      "description": "Base font stack for body text. Atkinson Hyperlegible, named after the founder of the Braille Institute, has been developed specifically to increase legibility for readers with low vision, and to improve comprehension.",
-      "value": ["Atkinson Hyperlegible", "system-ui", "sans-serif"]
+      "description": "Base font stack for body text. Shapiro.",
+      "value": ["Shaprio 45", "system-ui", "sans-serif"]
     },
     {
       "name": "Mono",

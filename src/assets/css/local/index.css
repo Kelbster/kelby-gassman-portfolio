@@ -1,0 +1,56 @@
+.index {
+    background: linear-gradient(-10deg, var(--color-blue-500), var(--color-blue-000));
+}
+
+.section-hero-card {
+    max-width: var(--max-width);
+    margin: 4rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: start;
+    min-height: calc(730px + 3rem);
+    height: 100vh;
+}
+
+.hero-card {
+    background-color: var(--color-blue-000);
+    box-shadow: 0 4px 16px var(--color-blue-300);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 730px;
+    width: 100%;
+    max-width: 480px;
+    padding: 16px 24px;
+}
+
+.hero-card.secondary {
+    background: 50% 50%/cover no-repeat url('/assets/images/portfolio/epicGames/fortnite-background.jpg');
+    box-shadow: 0 4px 16px var(--color-blue-600);
+    align-items: flex-end;
+    justify-content: end;
+    padding: 0;
+}
+
+.hero-card.secondary .blurb-container {
+    background-color: var(--color-red);
+    border-top: 2px solid var(--color-blue-500);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    width: 100%;
+    padding: 16px 24px 40px;
+}
+
+@media screen and (min-width: 980px) {
+    .section-hero-card {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
